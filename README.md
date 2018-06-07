@@ -5,7 +5,7 @@ Go snippet to get a bunch of urls as inputs and return all the responses sorted 
 https://github.com/kennethreitz/grequests
 
 
-I haven't seen so much simplecity in any other programming language or library for getting this done
+I haven't seen so much simplicity in any other programming language or library for getting this done
 
 ```python
 import grequests
@@ -53,8 +53,7 @@ func GetAllUrls(urls []string) []ResponseError {
 It can be used later as
 
 ```go
-    
-    urls := []string{"https://google.com", "http://www.degconnect.com", "http://elpais.com", "https://yahoo.es", "https://yahoo.com",
+        urls := []string{"https://google.com", "http://www.degconnect.com", "http://elpais.com", "https://yahoo.es", "https://yahoo.com",
 		"http://www.degconnect.com"}
 
 	results := GetAllUrls(urls)
