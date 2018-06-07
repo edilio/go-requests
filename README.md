@@ -53,6 +53,7 @@ func GetAllUrls(urls []string) []ResponseError {
 It can be used later as
 
 ```go
+    
     urls := []string{"https://google.com", "http://www.degconnect.com", "http://elpais.com", "https://yahoo.es", "https://yahoo.com",
 		"http://www.degconnect.com"}
 
